@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", Arial, sans-serif;
+    background: radial-gradient(circle at top left, #111, #000);
+    color: #e5e5e5;
+
+    max-width: 700px;
+    margin: 80px auto;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: white;
+    letter-spacing: -1px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+input[name="note"] {
+    flex: 1;
+    padding: 14px;
+    font-size: 16px;
+
+    background: #111;
+    border: 1px solid #222;
+    border-radius: 8px;
+
+    color: white;
+    outline: none;
+
+    transition: 0.2s;
+}
+
+input[name="note"]:focus {
+    border-color: #555;
+    box-shadow: 0 0 10px rgba(255,255,255,0.05);
+}
+
+button {
+    padding: 14px 20px;
+    background: white;
+    color: black;
+
+    border: none;
+    border-radius: 8px;
+
+    font-weight: bold;
+    cursor: pointer;
+
+    transition: all 0.2s ease;
+}
+
+button:hover {
+    transform: translateY(-2px) scale(1.02);
+
+    box-shadow:
+        0 10px 25px rgba(255,255,255,0.2),
+        0 0 10px rgba(255,255,255,0.1);
+
+    background: #f5f5f5;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: #111;
+    border: 1px solid #222;
+
+    margin-bottom: 12px;
+    padding: 14px;
+
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    transition: 0.2s;
+}
+
+li:hover {
+    transform: translateY(-2px);
+    border-color: #444;
+
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+li a {
+    color: #888;
+    text-decoration: none;
+    font-size: 14px;
+
+    transition: 0.2s;
+}
+
+li a:hover {
+    color: white;
+    text-shadow: 0 0 8px rgba(255,255,255,0.5);
+}

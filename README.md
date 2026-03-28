@@ -1,7 +1,7 @@
 # PHP Notes App
 
-A simple note-taking web app built with PHP. Users can add and delete notes stored in `notes.txt`.
-**Live Demo:** https://oussnotes.gt.tc/
+A simple note-taking web app built with PHP. Users can add and delete notes stored in `notes.txt`.\
+**Live Demo:** [![Notes Website](https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge)](https://oussnotes.gt.tc/)
 
 ![Notes App Preview](attachements/image.png)
 
